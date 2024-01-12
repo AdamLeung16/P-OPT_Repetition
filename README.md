@@ -7,7 +7,8 @@ final project of Computer Architecture
 
 * 按照[教程](https://tiandiyijian.top/posts/conda%E5%AE%89%E8%A3%85gcc%E5%92%8Cg++/)在conda环境中安装gxx9.3.0和gcc9.3.0；
 * 运行 `download_pin.py`下载pin-3.21工具；
-* 创建文件夹 `/input-graphs`并将四个图数据 `hugebubbles-00020.sg`、`kron25-d4.sg`、`uk-2002.sg`、`urand25-d4.sg`解压（两个压缩包）到该文件夹，此为仿真的数据输入；
+* 创建文件夹 `/input-graphs`并将四个图数据 `hugebubbles-00020.sg`、`kron25-d4.sg`、`uk-2002.sg`、`urand25-d4.sg`解压（两个[压缩包](https://pan.baidu.com/s/1Bpw7OXjlXVn92TzeYNKG7A?pwd=e0b1 
+)（提取码：e0b1）到该文件夹，此为仿真的数据输入；
 * 运行 `run_cache_sims.py`来开启缓存仿真模拟；
 * 运行 `plot_llcmiss_red.py`来绘制每一种缓存替换策略的LLC miss redection指标，此时会输出一个 `llcmiss-red.pdf`文件可视化指标。
 
